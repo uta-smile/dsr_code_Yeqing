@@ -31,7 +31,8 @@ addpath results ;
 subject = 'iko3';
 % FRUITS MOVI NUTS TOY
 
-path = ['datasets/Satellite/' subject];
+% path = ['datasets/Satellite/' subject];
+path = fullfile('datasets', 'Satellite', subject);
 load(path);
 LengthFiles = size(imori, 3);
 m = 128;
