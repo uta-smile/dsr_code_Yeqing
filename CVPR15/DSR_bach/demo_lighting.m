@@ -11,7 +11,7 @@ addpath results ;
 
 %% define images' path
 
-subject = 'NUTS';
+subject = 'TOY';
 % FRUITS MOVI NUTS TOY
 
 path = ['datasets/' subject];
@@ -19,6 +19,9 @@ Files = dir(strcat(path,'/*.ppm'));
 % Files = dir(strcat(path,'\*.pgm'));
 LengthFiles = length(Files);
 m = 128;
+% m = 64;
+% m = 256;
+% m = 384;
 for i=1:LengthFiles
 %         filename = [path  '\' lower(subject)  num2str(i)  '.pgm'];
     filename = [path  '/' lower(subject)  num2str(i)  '.ppm'];
@@ -29,6 +32,8 @@ for i=1:LengthFiles
     I0(:,:,i) = im;
     
 end
+
+% I0 = I0(:, :, randperm(LengthFiles)); 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -116,7 +121,7 @@ OPTIONS.SHOW_INTERVAL       = 1;
 I(:,:,1)=I0(:,:,1);
 Ig(:,:,1)=grad(I0(:,:,1));
 %%
-for ii=1:1  
+for ii=1:1
     for t=2:numImages
         T(:,:,t) = tform;
         T(3,1,t)  =  round(-5 + 10*rand(1));
@@ -129,26 +134,43 @@ for ii=1:1
         Ig(:,:,t)= imtransform(grad(I0(:,:,t)),form_translate, 'XData', [1 (n)],...
             'YData', [1 m]);
     end
-
-    AlignPara.init_trans = transformations;
-    [UwImgs, alignedImgs, unAlignedImgs, outlierImgs, xi3 ] = tgrasta_batch_training2( I, OPTIONS, AlignPara );
      
+    tic;
+%     profile on;
     [D, Do, A, E, xi, numIterOuter, numIterInner] = rasl_main2(I, transformations,numImages, raslpara, destDir);
+%     profile off;
+%     profsave(profile('info'),'rasl_profile');
+    t_rasl = toc;
    
+    tic;
+%     profile on;
     [D2, Do2, A2, E2, xi2, numIterOuter, numIterInner ] = dsr_main_alm(Ig, I, transformations, numImages, raslpara, destDir);
+%     profile off;
+%     profsave(profile('info'),'dsr_profile');
+    t_dsr = toc;
+    
+    tic;
+    AlignPara.init_trans = transformations;
+%     profile on;
+    [UwImgs, alignedImgs, unAlignedImgs, outlierImgs, xi3 ] = tgrasta_batch_training2( I, OPTIONS, AlignPara );
+%     profile off;
+%     profsave(profile('info'),'tgrasta_profile');
+    t_gra = toc;
           
     TrueT = -T;
 
+    time_rasl(ii) = t_rasl;
+    time_dsr(ii) = t_dsr;
+    time_gra(ii) = t_gra;
     for jj =2:numImages
-    
-    xi{jj} = xi{jj}  - xi{1};
-    xi2{jj} = xi2{jj} - xi2{1};    
-    xi3{jj} = xi3{jj} - xi3{1};      
-        
-    err0(ii,jj) = mean(abs(T(3,1:2,jj)));
-    err1(ii,jj) = mean(abs(xi{jj}'-T(3,1:2,jj)));
-    err2(ii,jj) = mean(abs(xi2{jj}'-T(3,1:2,jj)));
-    err3(ii,jj) = mean(abs(xi3{jj}(1:2,3)'-T(3,1:2,jj)));
+        xi{jj} = xi{jj}  - xi{1};
+        xi2{jj} = xi2{jj} - xi2{1};    
+        xi3{jj} = xi3{jj} - xi3{1};      
+
+        err0(ii,jj) = mean(abs(T(3,1:2,jj)));
+        err1(ii,jj) = mean(abs(xi{jj}'-T(3,1:2,jj)));
+        err2(ii,jj) = mean(abs(xi2{jj}'-T(3,1:2,jj)));
+        err3(ii,jj) = mean(abs(xi3{jj}(1:2,3)'-T(3,1:2,jj)));
     end
      
     %% plot the results
@@ -169,6 +191,9 @@ fprintf('tgrasta: mean error: %f, max error: %f \n',mean(err3(:)),max(err3(:)));
 fprintf('RASL: mean error: %f, max error: %f \n',mean(err1(:)),max(err1(:)));
 fprintf('DSR: mean error: %f, max error: %f \n',mean(err2(:)),max(err2(:)));
 
+fprintf('tgrasta: mean running time: %f\n',mean(time_gra(:)));
+fprintf('RASL: mean running time: %f\n',mean(time_rasl(:)));
+fprintf('DSR: mean running time: %f\n',mean(time_dsr(:)));
 
 
 

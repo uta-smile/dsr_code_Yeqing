@@ -5,6 +5,7 @@
 
 clear all; close all; clc;
 
+
 im = double(imread('westconcordaerial.png'));
 refim = double(imread('westconcordorthophoto.png'));
 
@@ -97,6 +98,7 @@ main.similarity='rc';
 t0= cputime();
 [res2, newim2]=mirt2D_register_rigid(refim,im, main, optim);
 t2= cputime()-t0;
+
 main.similarity='ssd';
 
 t0= cputime();

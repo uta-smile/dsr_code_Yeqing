@@ -3,6 +3,9 @@
 % intensity distortion. Try using other similarity measures, e.g. SSD, CC
 % or MI to see that they won't work with nonstationary instensity distortions
 
+% Also for
+% ISBI Fig. 2
+% CVPR Fig. 6
 clear all; close all; clc;
 refim = imread('lenargb.jpg');
 
@@ -50,11 +53,15 @@ main3.similarity = 'ssd';
 % refim_dis = add_distor(refim_dis,2,1);
 % refim_dis = refim;
 
+main4 = main;
+main4.similarity = 'mi';
+main4.MIbins=32;
+
 
 display = 0;
 
 % K = 1:2;Iter=10;
-K = 1:6;Iter=2; % it can be changed, 50 runs used in the paper
+K = 1:6;Iter=20; % it can be changed, 50 runs used in the paper
 for k=K
     for i = 1:Iter
         T = Tim + 0.02*rand(size(Tim));
@@ -91,18 +98,19 @@ for k=K
         I_RMSE3(k,i) = RMSE(newim3,refim);
         T_RMSE3(k,i) = RMSE(res3,T);
         
-%         t0= cputime();
-%         [res4, newim4]=mirt2D_register_rigid(refim_dis,im, main4, optim);
-%         t4(k,i)= cputime()-t0;
-%         I_RMSE4(k,i) = RMSE(newim4,refim);
-%         T_RMSE4(k,i) = RMSE(res4.X,T);
+        t0= cputime();
+        [res4, newim4]=mirt2D_register_rigid(refim_dis,im, main4, optim);
+        t4(k,i)= cputime()-t0;
+        I_RMSE4(k,i) = RMSE(newim4,refim);
+        T_RMSE4(k,i) = RMSE(res4,T);
         
         if display
             figure,subplot(2,3,1); imshowpair(im, refim_dis);  title('UnRegistered');
             subplot(2,3,2); imshowpair(newim1, refim_dis); title('DTV');
             subplot(2,3,3); imshowpair(newim2, refim_dis); title('RC');
             subplot(2,3,4); imshowpair(newim3, refim_dis); title('SSD');
-%             subplot(2,3,5); imshowpair(newim4, refim_dis); title('DJTV');
+            % subplot(2,3,5); imshowpair(newim4, refim_dis); title('DJTV');
+            subplot(2,3,5); imshowpair(newim4, refim_dis); title('MI');
         end
     end
 end
@@ -111,12 +119,12 @@ end
 M_RMSE1 = mean(I_RMSE1,2); S_RMSE1 = std(I_RMSE1,1,2);
 M_RMSE2 = mean(I_RMSE2,2); S_RMSE2 = std(I_RMSE2,1,2);
 M_RMSE3 = mean(I_RMSE3,2); S_RMSE3 = std(I_RMSE3,1,2);
-% M_RMSE4 = mean(I_RMSE4,2); S_RMSE4 = std(I_RMSE4,1,2);
+M_RMSE4 = mean(I_RMSE4,2); S_RMSE4 = std(I_RMSE4,1,2);
 
 MT_RMSE1 = mean(T_RMSE1,2); ST_RMSE1 = std(T_RMSE1,1,2);
 MT_RMSE2 = mean(T_RMSE2,2); ST_RMSE2 = std(T_RMSE2,1,2);
 MT_RMSE3 = mean(T_RMSE3,2); ST_RMSE3 = std(T_RMSE3,1,2);
-% MT_RMSE4 = mean(T_RMSE4,2); ST_RMSE4 = std(T_RMSE4,1,2);
+MT_RMSE4 = mean(T_RMSE4,2); ST_RMSE4 = std(T_RMSE4,1,2);
 
 
 ls=3; ms=8; ts=20;
@@ -124,8 +132,9 @@ figure; hold on;box on;
 errorbar(K,M_RMSE3, S_RMSE3, 'g--', 'linewidth',ls, 'markersize', ms);
 errorbar(K,M_RMSE2, S_RMSE2, 'b-.', 'linewidth',ls, 'markersize', ms);
 errorbar(K,M_RMSE1, S_RMSE1, 'r-', 'linewidth',ls, 'markersize', ms);
-% errorbar(K,M_RMSE4, S_RMSE4, 'c-', 'linewidth',ls, 'markersize', ms);
-legend('SSD','RC','Proposed','DJTV','Location','SouthEast');
+errorbar(K,M_RMSE4, S_RMSE4, 'c-', 'linewidth',ls, 'markersize', ms);
+% legend('SSD','RC','Proposed','DJTV','Location','SouthEast');
+legend('SSD','RC','Proposed','MI','Location','SouthEast');
 xlabel('K');
 ylabel('Intensity RMSE');
 textobj = findobj('type', 'text');
@@ -142,8 +151,9 @@ figure; hold on;box on;
 errorbar(K,MT_RMSE3, ST_RMSE3, 'g--', 'linewidth',ls, 'markersize', ms);
 errorbar(K,MT_RMSE2, ST_RMSE2, 'b-.', 'linewidth',ls, 'markersize', ms);
 errorbar(K,MT_RMSE1, ST_RMSE1, 'r-', 'linewidth',ls, 'markersize', ms);
-% errorbar(K,MT_RMSE4, ST_RMSE4, 'c-', 'linewidth',ls, 'markersize', ms);
-legend('SSD','RC','Proposed','DJTV','Location','SouthEast');
+errorbar(K,MT_RMSE4, ST_RMSE4, 'c-', 'linewidth',ls, 'markersize', ms);
+% legend('SSD','RC','Proposed','DJTV','Location','SouthEast');
+legend('SSD','RC','Proposed','MI','Location','SouthEast');
 xlabel('K');
 ylabel('Transformation RMSE');
 textobj = findobj('type', 'text');
@@ -161,4 +171,4 @@ set(gca,'FontSize',16);
 Time1 = mean(t1(:))
 Time2 = mean(t2(:))
 Time3 = mean(t3(:))
-% Time4 = mean(t4(:))
+Time4 = mean(t4(:))

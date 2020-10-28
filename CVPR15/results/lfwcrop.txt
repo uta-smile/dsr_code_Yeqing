@@ -1,0 +1,72 @@
+5/13233 samples m=64
+Unregistered: mean error: 2.000000, max error: 3.500000 
+tgrasta: mean error: 1.241215, max error: 2.918318 
+RASL: mean error: 0.832478, max error: 2.154129 
+DSR: mean error: 1.780103, max error: 2.749635 
+tgrasta: mean running time: 1.664800
+RASL: mean running time: 0.785097
+DSR: mean running time: 0.580523
+10/13233 samples m=64
+Unregistered: mean error: 2.050000, max error: 4.000000 
+tgrasta: mean error: 1.360128, max error: 3.563401 
+RASL: mean error: 1.092764, max error: 2.374265 
+DSR: mean error: 1.254150, max error: 2.747040 
+tgrasta: mean running time: 3.803473
+RASL: mean running time: 1.547820
+DSR: mean running time: 1.326142
+5/13233 samples m=64
+Unregistered: mean error: 2.400000, max error: 4.000000 
+tgrasta: mean error: 1.172775, max error: 2.645184 
+RASL: mean error: 1.097079, max error: 2.217449 
+DSR: mean error: 1.723096, max error: 3.708041 
+tgrasta: mean running time: 1.662524
+RASL: mean running time: 0.686427
+DSR: mean running time: 0.709785
+10/13233 samples m=64
+Unregistered: mean error: 2.600000, max error: 5.000000 
+tgrasta: mean error: 2.039916, max error: 3.528942 
+RASL: mean error: 3.161630, max error: 5.285565 
+DSR: mean error: 2.168679, max error: 3.457280 
+tgrasta: mean running time: 3.182322
+RASL: mean running time: 1.269901
+DSR: mean running time: 0.970518
+20/13233 samples m=64
+Unregistered: mean error: 2.325000, max error: 4.000000 
+tgrasta: mean error: 1.823065, max error: 3.347877 
+RASL: mean error: 1.782146, max error: 3.179679 
+DSR: mean error: 1.349865, max error: 2.445341 
+tgrasta: mean running time: 7.096180
+RASL: mean running time: 2.059609
+DSR: mean running time: 2.724024
+40/13233 samples m=64
+Unregistered: mean error: 2.400000, max error: 4.500000 
+tgrasta: mean error: 1.639159, max error: 3.446775 
+RASL: mean error: 1.418002, max error: 2.957574 
+DSR: mean error: 2.121165, max error: 4.078951 
+tgrasta: mean running time: 13.232125
+RASL: mean running time: 4.667133
+DSR: mean running time: 4.132842
+50/13233 samples m=64
+Unregistered: mean error: 2.350000, max error: 4.500000 
+tgrasta: mean error: 1.398574, max error: 3.480118 
+RASL: mean error: 1.572007, max error: 4.031187 
+DSR: mean error: 1.561232, max error: 4.332336 
+tgrasta: mean running time: 15.741816
+RASL: mean running time: 7.130099
+DSR: mean running time: 14.070625
+80/13233 samples m=64
+Unregistered: mean error: 2.493750, max error: 4.500000 
+tgrasta: mean error: 1.784421, max error: 3.622110 
+RASL: mean error: 2.098548, max error: 4.033902 
+DSR: mean error: 1.459855, max error: 3.780565 
+tgrasta: mean running time: 17.587360
+RASL: mean running time: 9.280114
+DSR: mean running time: 13.793063
+100/13233 samples m=64
+Unregistered: mean error: 2.425000, max error: 5.000000 
+tgrasta: mean error: 1.756219, max error: 4.313991 
+RASL: mean error: 1.556494, max error: 3.519106 
+DSR: mean error: 1.948188, max error: 4.248906 
+tgrasta: mean running time: 21.676174
+RASL: mean running time: 10.449418
+DSR: mean running time: 38.161912

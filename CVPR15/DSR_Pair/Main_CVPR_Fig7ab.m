@@ -1,3 +1,7 @@
+% Also for
+% ISBI Fig. 2
+% CVPR Fig. 6
+
 clear all; close all; clc;
 load mirt2D_data2.mat;
 % load T;
@@ -39,14 +43,14 @@ for k=K
 
         
         t0=cputime();
-        [res1, newim1]=mirt2D_register(refim_dis,im, main, optim);
+        [res1, newim1]=mirt2D_register(refim_dis,im, main, optim); % DTV
         
         t1(k,i)=cputime()-t0;
         I_RMSE1(k,i) = RMSE(newim1,refim);
         T_RMSE1(k,i) = RMSE(res1.X,trans.X);
         
         t0=cputime();
-        [res2, newim2]=mirt2D_register(refim_dis,im, main2, optim);
+        [res2, newim2]=mirt2D_register(refim_dis,im, main2, optim); % RC
         t2(k,i)=cputime()-t0;
         I_RMSE2(k,i) = RMSE(newim2,refim);
         T_RMSE2(k,i) = RMSE(res2.X,trans.X);

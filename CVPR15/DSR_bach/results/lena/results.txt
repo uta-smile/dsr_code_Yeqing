@@ -1,0 +1,693 @@
+ total number of iterations: 616
+ number of outer loop 11
+ consumed time: 4.6083
+ the parameters :
+ transformType TRANSLATION
+ lambda 1 times sqrt(m)
+ stoppingDelta of outer loop 0.01
+ stoppingDelta of inner loop 1e-06
+ optimization in inner loop is using inexact ALM algorithm
+ total number of iterations: 264
+ number of outer loop 6
+ consumed time: 2.6895
+ the parameters :
+ transformType TRANSLATION
+ lambda 1 times sqrt(m)
+ stoppingDelta of outer loop 0.01
+ stoppingDelta of inner loop 1e-06
+ optimization in inner loop is using inexact ALM algorithm
+ total number of iterations: 728
+ number of outer loop 13
+ consumed time: 4.4774
+ the parameters :
+ transformType TRANSLATION
+ lambda 1 times sqrt(m)
+ stoppingDelta of outer loop 0.01
+ stoppingDelta of inner loop 1e-06
+ optimization in inner loop is using inexact ALM algorithm
+ total number of iterations: 287
+ number of outer loop 6
+ consumed time: 2.5937
+ the parameters :
+ transformType TRANSLATION
+ lambda 1 times sqrt(m)
+ stoppingDelta of outer loop 0.01
+ stoppingDelta of inner loop 1e-06
+ optimization in inner loop is using inexact ALM algorithm
+ total number of iterations: 597
+ number of outer loop 13
+ consumed time: 4.4791
+ the parameters :
+ transformType TRANSLATION
+ lambda 1 times sqrt(m)
+ stoppingDelta of outer loop 0.01
+ stoppingDelta of inner loop 1e-06
+ optimization in inner loop is using inexact ALM algorithm
+ total number of iterations: 538
+ number of outer loop 11
+ consumed time: 5.2952
+ the parameters :
+ transformType TRANSLATION
+ lambda 1 times sqrt(m)
+ stoppingDelta of outer loop 0.01
+ stoppingDelta of inner loop 1e-06
+ optimization in inner loop is using inexact ALM algorithm
+ total number of iterations: 453
+ number of outer loop 10
+ consumed time: 2.7958
+ the parameters :
+ transformType TRANSLATION
+ lambda 1 times sqrt(m)
+ stoppingDelta of outer loop 0.01
+ stoppingDelta of inner loop 1e-06
+ optimization in inner loop is using inexact ALM algorithm
+ total number of iterations: 533
+ number of outer loop 11
+ consumed time: 3.4494
+ the parameters :
+ transformType TRANSLATION
+ lambda 1 times sqrt(m)
+ stoppingDelta of outer loop 0.01
+ stoppingDelta of inner loop 1e-06
+ optimization in inner loop is using inexact ALM algorithm
+ total number of iterations: 277
+ number of outer loop 6
+ consumed time: 1.7404
+ the parameters :
+ transformType TRANSLATION
+ lambda 1 times sqrt(m)
+ stoppingDelta of outer loop 0.01
+ stoppingDelta of inner loop 1e-06
+ optimization in inner loop is using inexact ALM algorithm
+ total number of iterations: 616
+ number of outer loop 11
+ consumed time: 3.0313
+ the parameters :
+ transformType TRANSLATION
+ lambda 1 times sqrt(m)
+ stoppingDelta of outer loop 0.01
+ stoppingDelta of inner loop 1e-06
+ optimization in inner loop is using inexact ALM algorithm
+ total number of iterations: 274
+ number of outer loop 6
+ consumed time: 1.6804
+ the parameters :
+ transformType TRANSLATION
+ lambda 1 times sqrt(m)
+ stoppingDelta of outer loop 0.01
+ stoppingDelta of inner loop 1e-06
+ optimization in inner loop is using inexact ALM algorithm
+ total number of iterations: 728
+ number of outer loop 13
+ consumed time: 3.84
+ the parameters :
+ transformType TRANSLATION
+ lambda 1 times sqrt(m)
+ stoppingDelta of outer loop 0.01
+ stoppingDelta of inner loop 1e-06
+ optimization in inner loop is using inexact ALM algorithm
+ total number of iterations: 190
+ number of outer loop 5
+ consumed time: 0.53522
+ the parameters :
+ transformType TRANSLATION
+ lambda 1 times sqrt(m)
+ stoppingDelta of outer loop 0.01
+ stoppingDelta of inner loop 1e-06
+ optimization in inner loop is using inexact ALM algorithm
+ total number of iterations: 275
+ number of outer loop 7
+ consumed time: 0.60736
+ the parameters :
+ transformType TRANSLATION
+ lambda 1 times sqrt(m)
+ stoppingDelta of outer loop 0.01
+ stoppingDelta of inner loop 1e-06
+ optimization in inner loop is using inexact ALM algorithm
+ total number of iterations: 209
+ number of outer loop 5
+ consumed time: 1.3705
+ the parameters :
+ transformType TRANSLATION
+ lambda 1 times sqrt(m)
+ stoppingDelta of outer loop 0.01
+ stoppingDelta of inner loop 1e-06
+ optimization in inner loop is using inexact ALM algorithm
+ total number of iterations: 616
+ number of outer loop 11
+ consumed time: 2.7441
+ the parameters :
+ transformType TRANSLATION
+ lambda 1 times sqrt(m)
+ stoppingDelta of outer loop 0.01
+ stoppingDelta of inner loop 1e-06
+ optimization in inner loop is using inexact ALM algorithm
+ total number of iterations: 263
+ number of outer loop 6
+ consumed time: 1.7113
+ the parameters :
+ transformType TRANSLATION
+ lambda 1 times sqrt(m)
+ stoppingDelta of outer loop 0.01
+ stoppingDelta of inner loop 1e-06
+ optimization in inner loop is using inexact ALM algorithm
+ total number of iterations: 616
+ number of outer loop 11
+ consumed time: 3.1519
+ the parameters :
+ transformType TRANSLATION
+ lambda 1 times sqrt(m)
+ stoppingDelta of outer loop 0.01
+ stoppingDelta of inner loop 1e-06
+ optimization in inner loop is using inexact ALM algorithm
+ total number of iterations: 233
+ number of outer loop 5
+ consumed time: 1.4476
+ the parameters :
+ transformType TRANSLATION
+ lambda 1 times sqrt(m)
+ stoppingDelta of outer loop 0.01
+ stoppingDelta of inner loop 1e-06
+ optimization in inner loop is using inexact ALM algorithm
+ total number of iterations: 560
+ number of outer loop 10
+ consumed time: 3.3872
+ the parameters :
+ transformType TRANSLATION
+ lambda 1 times sqrt(m)
+ stoppingDelta of outer loop 0.01
+ stoppingDelta of inner loop 1e-06
+ optimization in inner loop is using inexact ALM algorithm
+ total number of iterations: 319
+ number of outer loop 7
+ consumed time: 2.0955
+ the parameters :
+ transformType TRANSLATION
+ lambda 1 times sqrt(m)
+ stoppingDelta of outer loop 0.01
+ stoppingDelta of inner loop 1e-06
+ optimization in inner loop is using inexact ALM algorithm
+ total number of iterations: 560
+ number of outer loop 10
+ consumed time: 3.2417
+ the parameters :
+ transformType TRANSLATION
+ lambda 1 times sqrt(m)
+ stoppingDelta of outer loop 0.01
+ stoppingDelta of inner loop 1e-06
+ optimization in inner loop is using inexact ALM algorithm
+ total number of iterations: 247
+ number of outer loop 6
+ consumed time: 1.616
+ the parameters :
+ transformType TRANSLATION
+ lambda 1 times sqrt(m)
+ stoppingDelta of outer loop 0.01
+ stoppingDelta of inner loop 1e-06
+ optimization in inner loop is using inexact ALM algorithm
+ total number of iterations: 672
+ number of outer loop 12
+ consumed time: 3.3419
+ the parameters :
+ transformType TRANSLATION
+ lambda 1 times sqrt(m)
+ stoppingDelta of outer loop 0.01
+ stoppingDelta of inner loop 1e-06
+ optimization in inner loop is using inexact ALM algorithm
+ total number of iterations: 266
+ number of outer loop 6
+ consumed time: 1.695
+ the parameters :
+ transformType TRANSLATION
+ lambda 1 times sqrt(m)
+ stoppingDelta of outer loop 0.01
+ stoppingDelta of inner loop 1e-06
+ optimization in inner loop is using inexact ALM algorithm
+ total number of iterations: 672
+ number of outer loop 12
+ consumed time: 3.3656
+ the parameters :
+ transformType TRANSLATION
+ lambda 1 times sqrt(m)
+ stoppingDelta of outer loop 0.01
+ stoppingDelta of inner loop 1e-06
+ optimization in inner loop is using inexact ALM algorithm
+ total number of iterations: 154
+ number of outer loop 4
+ consumed time: 0.47465
+ the parameters :
+ transformType TRANSLATION
+ lambda 1 times sqrt(m)
+ stoppingDelta of outer loop 0.01
+ stoppingDelta of inner loop 1e-06
+ optimization in inner loop is using inexact ALM algorithm
+ total number of iterations: 234
+ number of outer loop 6
+ consumed time: 0.52554
+ the parameters :
+ transformType TRANSLATION
+ lambda 1 times sqrt(m)
+ stoppingDelta of outer loop 0.01
+ stoppingDelta of inner loop 1e-06
+ optimization in inner loop is using inexact ALM algorithm
+ total number of iterations: 216
+ number of outer loop 5
+ consumed time: 0.71613
+ the parameters :
+ transformType TRANSLATION
+ lambda 1 times sqrt(m)
+ stoppingDelta of outer loop 0.01
+ stoppingDelta of inner loop 1e-06
+ optimization in inner loop is using inexact ALM algorithm
+ total number of iterations: 336
+ number of outer loop 8
+ consumed time: 1.1246
+ the parameters :
+ transformType TRANSLATION
+ lambda 1 times sqrt(m)
+ stoppingDelta of outer loop 0.01
+ stoppingDelta of inner loop 1e-06
+ optimization in inner loop is using inexact ALM algorithm
+ total number of iterations: 279
+ number of outer loop 6
+ consumed time: 1.0795
+ the parameters :
+ transformType TRANSLATION
+ lambda 1 times sqrt(m)
+ stoppingDelta of outer loop 0.01
+ stoppingDelta of inner loop 1e-06
+ optimization in inner loop is using inexact ALM algorithm
+ total number of iterations: 363
+ number of outer loop 9
+ consumed time: 1.305
+ the parameters :
+ transformType TRANSLATION
+ lambda 1 times sqrt(m)
+ stoppingDelta of outer loop 0.01
+ stoppingDelta of inner loop 1e-06
+ optimization in inner loop is using inexact ALM algorithm
+ total number of iterations: 425
+ number of outer loop 9
+ consumed time: 2.124
+ the parameters :
+ transformType TRANSLATION
+ lambda 1 times sqrt(m)
+ stoppingDelta of outer loop 0.01
+ stoppingDelta of inner loop 1e-06
+ optimization in inner loop is using inexact ALM algorithm
+ total number of iterations: 416
+ number of outer loop 8
+ consumed time: 1.5759
+ the parameters :
+ transformType TRANSLATION
+ lambda 1 times sqrt(m)
+ stoppingDelta of outer loop 0.01
+ stoppingDelta of inner loop 1e-06
+ optimization in inner loop is using inexact ALM algorithm
+ total number of iterations: 321
+ number of outer loop 7
+ consumed time: 1.3518
+ the parameters :
+ transformType TRANSLATION
+ lambda 1 times sqrt(m)
+ stoppingDelta of outer loop 0.01
+ stoppingDelta of inner loop 1e-06
+ optimization in inner loop is using inexact ALM algorithm
+ total number of iterations: 520
+ number of outer loop 10
+ consumed time: 2.0158
+ the parameters :
+ transformType TRANSLATION
+ lambda 1 times sqrt(m)
+ stoppingDelta of outer loop 0.01
+ stoppingDelta of inner loop 1e-06
+ optimization in inner loop is using inexact ALM algorithm
+ total number of iterations: 265
+ number of outer loop 6
+ consumed time: 1.4746
+ the parameters :
+ transformType TRANSLATION
+ lambda 1 times sqrt(m)
+ stoppingDelta of outer loop 0.01
+ stoppingDelta of inner loop 1e-06
+ optimization in inner loop is using inexact ALM algorithm
+ total number of iterations: 453
+ number of outer loop 11
+ consumed time: 2.2203
+ the parameters :
+ transformType TRANSLATION
+ lambda 1 times sqrt(m)
+ stoppingDelta of outer loop 0.01
+ stoppingDelta of inner loop 1e-06
+ optimization in inner loop is using inexact ALM algorithm
+ total number of iterations: 267
+ number of outer loop 6
+ consumed time: 1.6869
+ the parameters :
+ transformType TRANSLATION
+ lambda 1 times sqrt(m)
+ stoppingDelta of outer loop 0.01
+ stoppingDelta of inner loop 1e-06
+ optimization in inner loop is using inexact ALM algorithm
+ total number of iterations: 560
+ number of outer loop 10
+ consumed time: 2.8502
+ the parameters :
+ transformType TRANSLATION
+ lambda 1 times sqrt(m)
+ stoppingDelta of outer loop 0.01
+ stoppingDelta of inner loop 1e-06
+ optimization in inner loop is using inexact ALM algorithm
+ total number of iterations: 279
+ number of outer loop 6
+ consumed time: 1.8096
+ the parameters :
+ transformType TRANSLATION
+ lambda 1 times sqrt(m)
+ stoppingDelta of outer loop 0.01
+ stoppingDelta of inner loop 1e-06
+ optimization in inner loop is using inexact ALM algorithm
+ total number of iterations: 616
+ number of outer loop 11
+ consumed time: 3.5144
+ the parameters :
+ transformType TRANSLATION
+ lambda 1 times sqrt(m)
+ stoppingDelta of outer loop 0.01
+ stoppingDelta of inner loop 1e-06
+ optimization in inner loop is using inexact ALM algorithm
+ total number of iterations: 229
+ number of outer loop 5
+ consumed time: 1.4845
+ the parameters :
+ transformType TRANSLATION
+ lambda 1 times sqrt(m)
+ stoppingDelta of outer loop 0.01
+ stoppingDelta of inner loop 1e-06
+ optimization in inner loop is using inexact ALM algorithm
+ total number of iterations: 616
+ number of outer loop 11
+ consumed time: 3.0894
+ the parameters :
+ transformType TRANSLATION
+ lambda 1 times sqrt(m)
+ stoppingDelta of outer loop 0.01
+ stoppingDelta of inner loop 1e-06
+ optimization in inner loop is using inexact ALM algorithm
+ total number of iterations: 258
+ number of outer loop 6
+ consumed time: 1.7092
+ the parameters :
+ transformType TRANSLATION
+ lambda 1 times sqrt(m)
+ stoppingDelta of outer loop 0.01
+ stoppingDelta of inner loop 1e-06
+ optimization in inner loop is using inexact ALM algorithm
+ total number of iterations: 728
+ number of outer loop 13
+ consumed time: 3.4307
+ the parameters :
+ transformType TRANSLATION
+ lambda 1 times sqrt(m)
+ stoppingDelta of outer loop 0.01
+ stoppingDelta of inner loop 1e-06
+ optimization in inner loop is using inexact ALM algorithm
+ total number of iterations: 181
+ number of outer loop 4
+ consumed time: 0.15372
+ the parameters :
+ transformType TRANSLATION
+ lambda 1 times sqrt(m)
+ stoppingDelta of outer loop 0.01
+ stoppingDelta of inner loop 1e-06
+ optimization in inner loop is using inexact ALM algorithm
+ total number of iterations: 181
+ number of outer loop 4
+ consumed time: 0.14288
+ the parameters :
+ transformType TRANSLATION
+ lambda 1 times sqrt(m)
+ stoppingDelta of outer loop 0.01
+ stoppingDelta of inner loop 1e-06
+ optimization in inner loop is using inexact ALM algorithm
+ total number of iterations: 8
+ number of outer loop 4
+ consumed time: 0.095945
+ the parameters :
+ transformType TRANSLATION
+ lambda 1 times sqrt(m)
+ stoppingDelta of outer loop 0.01
+ stoppingDelta of inner loop 1e-06
+ optimization in inner loop is using inexact ALM algorithm
+ total number of iterations: 1344
+ number of outer loop 26
+ consumed time: 5.2157
+ the parameters :
+ transformType TRANSLATION
+ lambda 1 times sqrt(m)
+ stoppingDelta of outer loop 0.01
+ stoppingDelta of inner loop 1e-06
+ optimization in inner loop is using inexact ALM algorithm
+ total number of iterations: 1029
+ number of outer loop 20
+ consumed time: 3.5479
+ the parameters :
+ transformType TRANSLATION
+ lambda 1 times sqrt(m)
+ stoppingDelta of outer loop 0.01
+ stoppingDelta of inner loop 1e-06
+ optimization in inner loop is using inexact ALM algorithm
+ total number of iterations: 1717
+ number of outer loop 32
+ consumed time: 14.5527
+ the parameters :
+ transformType TRANSLATION
+ lambda 1 times sqrt(m)
+ stoppingDelta of outer loop 0.01
+ stoppingDelta of inner loop 1e-06
+ optimization in inner loop is using inexact ALM algorithm
+ total number of iterations: 1117
+ number of outer loop 21
+ consumed time: 8.3668
+ the parameters :
+ transformType TRANSLATION
+ lambda 1 times sqrt(m)
+ stoppingDelta of outer loop 0.01
+ stoppingDelta of inner loop 1e-06
+ optimization in inner loop is using inexact ALM algorithm
+ total number of iterations: 276
+ number of outer loop 6
+ consumed time: 0.96461
+ the parameters :
+ transformType TRANSLATION
+ lambda 1 times sqrt(m)
+ stoppingDelta of outer loop 0.01
+ stoppingDelta of inner loop 1e-06
+ optimization in inner loop is using inexact ALM algorithm
+ total number of iterations: 504
+ number of outer loop 9
+ consumed time: 1.3203
+ the parameters :
+ transformType TRANSLATION
+ lambda 1 times sqrt(m)
+ stoppingDelta of outer loop 0.01
+ stoppingDelta of inner loop 1e-06
+ optimization in inner loop is using inexact ALM algorithm
+ total number of iterations: 254
+ number of outer loop 6
+ consumed time: 1.58
+ the parameters :
+ transformType TRANSLATION
+ lambda 1 times sqrt(m)
+ stoppingDelta of outer loop 0.01
+ stoppingDelta of inner loop 1e-06
+ optimization in inner loop is using inexact ALM algorithm
+ total number of iterations: 672
+ number of outer loop 12
+ consumed time: 3.2092
+ the parameters :
+ transformType TRANSLATION
+ lambda 1 times sqrt(m)
+ stoppingDelta of outer loop 0.01
+ stoppingDelta of inner loop 1e-06
+ optimization in inner loop is using inexact ALM algorithm
+ total number of iterations: 210
+ number of outer loop 5
+ consumed time: 4.2548
+ the parameters :
+ transformType TRANSLATION
+ lambda 1 times sqrt(m)
+ stoppingDelta of outer loop 0.01
+ stoppingDelta of inner loop 1e-06
+ optimization in inner loop is using inexact ALM algorithm
+ total number of iterations: 448
+ number of outer loop 8
+ consumed time: 6.2555
+ the parameters :
+ transformType TRANSLATION
+ lambda 1 times sqrt(m)
+ stoppingDelta of outer loop 0.01
+ stoppingDelta of inner loop 1e-06
+ optimization in inner loop is using inexact ALM algorithm
+ total number of iterations: 314
+ number of outer loop 7
+ consumed time: 1.832
+ the parameters :
+ transformType TRANSLATION
+ lambda 1 times sqrt(m)
+ stoppingDelta of outer loop 0.01
+ stoppingDelta of inner loop 1e-06
+ optimization in inner loop is using inexact ALM algorithm
+ total number of iterations: 672
+ number of outer loop 12
+ consumed time: 3.3458
+ the parameters :
+ transformType TRANSLATION
+ lambda 1 times sqrt(m)
+ stoppingDelta of outer loop 0.01
+ stoppingDelta of inner loop 1e-06
+ optimization in inner loop is using inexact ALM algorithm
+ total number of iterations: 225
+ number of outer loop 5
+ consumed time: 10.1975
+ the parameters :
+ transformType TRANSLATION
+ lambda 1 times sqrt(m)
+ stoppingDelta of outer loop 0.01
+ stoppingDelta of inner loop 1e-06
+ optimization in inner loop is using inexact ALM algorithm
+ total number of iterations: 504
+ number of outer loop 9
+ consumed time: 15.3253
+ the parameters :
+ transformType TRANSLATION
+ lambda 1 times sqrt(m)
+ stoppingDelta of outer loop 0.01
+ stoppingDelta of inner loop 1e-06
+ optimization in inner loop is using inexact ALM algorithm
+ total number of iterations: 1719
+ number of outer loop 32
+ consumed time: 14.9039
+ the parameters :
+ transformType TRANSLATION
+ lambda 1 times sqrt(m)
+ stoppingDelta of outer loop 0.01
+ stoppingDelta of inner loop 1e-06
+ optimization in inner loop is using inexact ALM algorithm
+ total number of iterations: 1224
+ number of outer loop 23
+ consumed time: 9.6218
+ the parameters :
+ transformType TRANSLATION
+ lambda 1 times sqrt(m)
+ stoppingDelta of outer loop 0.01
+ stoppingDelta of inner loop 1e-06
+ optimization in inner loop is using inexact ALM algorithm
+ total number of iterations: 281
+ number of outer loop 6
+ consumed time: 1.8437
+ the parameters :
+ transformType TRANSLATION
+ lambda 1 times sqrt(m)
+ stoppingDelta of outer loop 0.01
+ stoppingDelta of inner loop 1e-06
+ optimization in inner loop is using inexact ALM algorithm
+ total number of iterations: 672
+ number of outer loop 12
+ consumed time: 3.1333
+ the parameters :
+ transformType TRANSLATION
+ lambda 1 times sqrt(m)
+ stoppingDelta of outer loop 0.01
+ stoppingDelta of inner loop 1e-06
+ optimization in inner loop is using inexact ALM algorithm
+ total number of iterations: 98
+ number of outer loop 5
+ consumed time: 1.0683
+ the parameters :
+ transformType TRANSLATION
+ lambda 10 times sqrt(m)
+ stoppingDelta of outer loop 0.01
+ stoppingDelta of inner loop 1e-06
+ optimization in inner loop is using inexact ALM algorithm
+ total number of iterations: 792
+ number of outer loop 12
+ consumed time: 3.6791
+ the parameters :
+ transformType TRANSLATION
+ lambda 10 times sqrt(m)
+ stoppingDelta of outer loop 0.01
+ stoppingDelta of inner loop 1e-06
+ optimization in inner loop is using inexact ALM algorithm
+ total number of iterations: 133
+ number of outer loop 4
+ consumed time: 1.1169
+ the parameters :
+ transformType TRANSLATION
+ lambda 0.1 times sqrt(m)
+ stoppingDelta of outer loop 0.01
+ stoppingDelta of inner loop 1e-06
+ optimization in inner loop is using inexact ALM algorithm
+ total number of iterations: 177
+ number of outer loop 4
+ consumed time: 1.2562
+ the parameters :
+ transformType TRANSLATION
+ lambda 0.1 times sqrt(m)
+ stoppingDelta of outer loop 0.01
+ stoppingDelta of inner loop 1e-06
+ optimization in inner loop is using inexact ALM algorithm
+ total number of iterations: 119
+ number of outer loop 5
+ consumed time: 1.0587
+ the parameters :
+ transformType TRANSLATION
+ lambda 2 times sqrt(m)
+ stoppingDelta of outer loop 0.01
+ stoppingDelta of inner loop 1e-06
+ optimization in inner loop is using inexact ALM algorithm
+ total number of iterations: 885
+ number of outer loop 15
+ consumed time: 4.4886
+ the parameters :
+ transformType TRANSLATION
+ lambda 2 times sqrt(m)
+ stoppingDelta of outer loop 0.01
+ stoppingDelta of inner loop 1e-06
+ optimization in inner loop is using inexact ALM algorithm
+ total number of iterations: 96
+ number of outer loop 5
+ consumed time: 1.0191
+ the parameters :
+ transformType TRANSLATION
+ lambda 100 times sqrt(m)
+ stoppingDelta of outer loop 0.01
+ stoppingDelta of inner loop 1e-06
+ optimization in inner loop is using inexact ALM algorithm
+ total number of iterations: 463
+ number of outer loop 10
+ consumed time: 2.4969
+ the parameters :
+ transformType TRANSLATION
+ lambda 100 times sqrt(m)
+ stoppingDelta of outer loop 0.01
+ stoppingDelta of inner loop 1e-06
+ optimization in inner loop is using inexact ALM algorithm
+ total number of iterations: 436
+ number of outer loop 9
+ consumed time: 7.8203
+ the parameters :
+ transformType TRANSLATION
+ lambda 1 times sqrt(m)
+ stoppingDelta of outer loop 0.01
+ stoppingDelta of inner loop 1e-06
+ optimization in inner loop is using inexact ALM algorithm
+ total number of iterations: 463
+ number of outer loop 10
+ consumed time: 7.6125
+ the parameters :
+ transformType TRANSLATION
+ lambda 1 times sqrt(m)
+ stoppingDelta of outer loop 0.01
+ stoppingDelta of inner loop 1e-06
+ optimization in inner loop is using inexact ALM algorithm

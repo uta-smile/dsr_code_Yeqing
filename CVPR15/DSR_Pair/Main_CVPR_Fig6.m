@@ -21,20 +21,27 @@ optim.fundif = 1e-5;    % tolerance (stopping criterion)
 optim.gamma = 1;       % initial optimization step size 
 optim.anneal=0.8;       % annealing rate on the optimization step    
  
-
+tic;
 [res1, newim1]=mirt2D_register(refim,im, main, optim);
+tdtv = toc;
 
 
 % Main settings
 main.similarity='rc';   % similarity measure, e.g. SSD, CC, SAD, RC, CD2, MS, MI  
 main.alpha=0.05;        % similarity measure parameter (e.g., alpha of RC)
 
- 
+tic;
 [res2, newim2]=mirt2D_register(refim,im, main, optim);
+trc = toc;
 
 main.similarity='ssd';
+tic;
 [res3, newim3]=mirt2D_register(refim,im, main, optim);
+tssd = toc;
 
+fprintf('SSD Running time %f\n', tssd);
+fprintf('RC Running time %f\n', trc);
+fprintf('DTV Running time %f\n', tdtv); 
 
 figure;
 subplot(2,4,1);imshow(refim); title('Reference (fixed) image');
